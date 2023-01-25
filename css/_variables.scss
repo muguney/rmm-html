@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@400;500;600&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+@font-face {
+    font-family: 'Pervitina Dex';
+    src: url('pervitina-dex-ffp-webfont.woff2') format('woff2'),
+         url('pervitina-dex-ffp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$font_family_title :  'Khand', sans-serif;
+$font_family :  'Open Sans', sans-serif;
+$font_size_title : 25px;
+$font_size : 18px;
+$color_red :#B30520;
+$color_gray : #666;
+$color_dark_gray : #444;
+$color_light_gray: #f7f7f7;
+$color_light_gray_hover:#f2f2f2;
+$color_white:#FFF;
+
+
+

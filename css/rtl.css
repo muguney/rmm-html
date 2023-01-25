@@ -1,0 +1,58 @@
+main #showcase .showcase-container .about-showcase,main #showcase #banner-card .square-card>div span,.mm-listview,main #news>.carousel .item .info,footer,main #page-content .page-inner,main #page-content .news-inner,main #page-content .widget .widget-content .item .info,main #news-list .item .info,main #page-content aside
+{
+    text-align: right !important;
+}
+#showcase .showcase-container .about-showcase .red-title h3{
+    right: 30px !important;
+}
+main #page-header>div>.title{
+    text-align: left;
+    padding-left: 40px;
+    right: 0;
+}
+ul,main #page-content .contact-form,.faq,main #page-content .product-detail{
+    direction: rtl !important;
+}
+.pager{
+    direction: ltr !important;
+}
+main #page-content .product-detail h2:before{
+    right: 0;
+    left:auto;
+}
+main #page-content .widget .widget-content .item .info i,main #news-list .item .info i{
+    left:25px;
+    right: auto;
+}
+main #page-header>div .breadcrumb ul li::after
+{
+    margin-left:auto !important;
+    margin-right:10px;
+}
+main #page-content .faq .faq-category{
+    padding-right:auto; 
+    padding-right:40px;
+    text-align: right;
+}
+main #page-header>div .breadcrumb{
+    direction: rtl;
+    padding-left:0;
+    padding-right:500px;
+}
+@media only screen and (max-width: 1200px) {
+    main #page-header>div .breadcrumb{
+        padding-right:350px !important;
+    }
+  }
+@media only screen and (max-width: 920px) {
+    main #page-header>div>.title h1{
+        text-align: right;
+    }
+    main #page-header>div .breadcrumb{
+        padding-right:0px !important;
+    }
+    main #page-header>div .breadcrumb ul{
+        margin:0;
+    }
+  }
+ 
